@@ -1,0 +1,184 @@
+.blue-gradient {
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.green-gradient {
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.straight-blue-gradient {
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+.nav-fix {
+    position: absolute;
+    z-index: 999;
+}
+
+.white {
+    color: white;
+}
+
+.alternateWhite {
+    color: #f2f2f2;
+}
+
+.bungee {
+    font-family: 'Bungee', cursive;
+}
+
+.nav-font-size {
+    font-size: 1.4em;
+}
+
+a:hover {
+    transition: .7s;
+    text-decoration: none;
+}
+
+.exo {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.mainHeading {
+    font-size: 4em;
+}
+
+.subHeading {
+    font-size: 3em;
+}
+
+.bg1 {
+    background: url('/images/mountainLandscape.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#workSection {
+    margin-top: -1.3em;
+    font-size: 4em;
+    color:  #e6e6e6;
+    
+}
+
+#workButton {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-right: -11em;
+}
+
+#resumeButton {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-left: -11em;  
+}
+
+#form {
+    margin-top: -3em;
+}
+
+
+a {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: none;
+}
+  
+  .footerStyles {
+    text-align: center;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 15px 15px 15px 15px rgba(8, 7, 7, 0.3);
+  }
+
+  #subheadingText {
+      margin-top: -2em;
+  }
+  
+  .content {
+    z-index: 1;
+    transition: .2s;
+    opacity: 0;
+    transform: scale(0.95, 0.95) translateY(15px);
+  }
+
+  .content.active {
+    z-index: 1000;
+    opacity: 1;
+    transform: scale(1, 1) translateY(0);
+  }
+
+  #githubButton:hover {
+      color: grey;
+      transition: .5s;
+  }
+
+  #businessText {
+      /* margin-top: -4em; */
+  }
+
+  footer {
+      color: white;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      text-align: left;
+      background: #00F260;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #webGraphics {
+      margin-top: 5em;
+  }
+
+  @media (max-width: 412px) {
+    #nav { font-size: 10px;
+    }
+}
+
+ @media (max-width: 476px) {
+    #mainHeadingText { font-size: 3em;
+  }
+
+  @media (max-width: 380px) {
+    #formText {font-size: 1em; width: 70%}
+  }
+
+  @media (max-width: 575px) {
+    #formText {font-size: 1em; width: 70%}
+  }
+
+  @media (max-width: 362px) {
+    #workSection {font-size: 19em;}
+}
+ 
+
+  @media (max-width: 990px) {
+    #workSection {font-size: 2em; margin-top: -4em;}
+    #workButton {margin-left: 20em; font-size: 1em;}
+    #resumeButton {margin-right: 40em; font-size: 1em;}
+  }
+}
+
+  
