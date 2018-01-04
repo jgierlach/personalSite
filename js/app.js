@@ -33,8 +33,10 @@ $(document).ready(function() {
         meunu: 'menu',
         lockAnchors: false,
         anchors: [
+            'home',
             'work',
-            'resume',
+            'development',
+            'venture',
             'contact'
         ],
         afterRender: afterRender,
